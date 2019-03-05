@@ -1,6 +1,6 @@
 # 100 Days Of Code - Log
 
-### Day 0: March 1, 2019
+### Day 1: March 1, 2019
 ##### First GitHub repository
 
 **Today's Progress:** I'm working on Python script to migrate some of videos from our company's CDN provider to youtube. The part of the script that is currently written uses calls to API that CDN provider has, downloads each file and saves it's infornation (id, name and filepath) to JSON.
@@ -39,5 +39,21 @@
 - [ ] Add google-api authentication
 
 **Thoughts:** Well, I failed to make atomic commits in refactoring process. It is still a thing to learn. However git flow approach still works for me. 
+
+**Link to work:** [GitHub repository](https://github.com/Orithil/ep-migrate)
+
+### Day 4: March 5, 2019
+##### Now I can upload to youtube from python!
+
+**Today's Progress:** I learned how to make api requests to Youtube API to upload videos on my channel. I have used code sample from Google API documentation but it was written for python2 so I've tinkered it a little to make it work in my module. The problem is that google asks for app permitions on each execution of the module. The nex thing to do is to authenticate once and keep uploading.
+
+**Up next:**  
+
+- [x] Refactoring script to separate utility functions from main call.
+- [x] Modify script so it would take credential as commandline arguments.
+- [x] Add google-api authentication
+- [ ] Add proper authentication method for google-api
+
+**Thoughts:** To be honest I'm amazed how easy it was to make this thing work. At the same time I can't help being proud of what I've done. It isn't much but two days ago I knew nothing about google authentication methods or Youtube API. It's a long way to go.
 
 **Link to work:** [GitHub repository](https://github.com/Orithil/ep-migrate)
